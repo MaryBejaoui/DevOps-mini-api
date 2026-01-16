@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: task-api-config
+  labels:
+    app: task-api
+data:
+  APP_NAME: "task-api"
+  LOG_LEVEL: "INFO"
+  ENVIRONMENT: "production"
